@@ -1,0 +1,134 @@
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #bbc2a9;
+}
+
+.header {
+    background-image: url('./img/maszyna.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    height: 500px;
+    position: relative;
+}
+.layer {
+    
+    background: rgba(92,136,128,1);
+    background: -moz-linear-gradient(top, rgba(92,136,128,1) 0%, rgba(29,68,74,0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(92,136,128,1)), color-stop(100%, rgba(29,68,74,0)));
+    background: -webkit-linear-gradient(top, rgba(92,136,128,1) 0%, rgba(29,68,74,0) 100%);
+    background: -o-linear-gradient(top, rgba(92,136,128,1) 0%, rgba(29,68,74,0) 100%);
+    background: -ms-linear-gradient(top, rgba(92,136,128,1) 0%, rgba(29,68,74,0) 100%);
+    background: linear-gradient(to bottom, rgba(92,136,128,1) 0%, rgba(29,68,74,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c8880', endColorstr='#1d444a', GradientType=0 );
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+.figure-img {
+    width: 35%;
+}
+.img-kasia {
+    width: 100%;
+    border-radius: 50%;
+    
+}
+.figiure .fig-caption {
+    font-size: 2rem;
+}
+.text-primary {
+    color: #1d444a !important;
+}
+.text-secondary {
+    color: #bbc2a9 !important;
+}
+.bg-primary {
+    background-color: #1d444a !important;
+}
+.bg-primary-container {
+    
+
+    
+background: rgba(248,249,250,1);
+background: -moz-linear-gradient(top, rgba(248,249,250,1) 0%, rgba(187,194,169,1) 24%, rgba(29,68,74,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,249,250,1)), color-stop(24%, rgba(187,194,169,1)), color-stop(100%, rgba(29,68,74,1)));
+background: -webkit-linear-gradient(top, rgba(248,249,250,1) 0%, rgba(187,194,169,1) 24%, rgba(29,68,74,1) 100%);
+background: -o-linear-gradient(top, rgba(248,249,250,1) 0%, rgba(187,194,169,1) 24%, rgba(29,68,74,1) 100%);
+background: -ms-linear-gradient(top, rgba(248,249,250,1) 0%, rgba(187,194,169,1) 24%, rgba(29,68,74,1) 100%);
+background: linear-gradient(to bottom, rgba(248,249,250,1) 0%, rgba(187,194,169,1) 24%, rgba(29,68,74,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9fa', endColorstr='#1d444a', GradientType=0 );
+
+    
+
+}
+
+.bg-primary-nav {
+    background: rgba(29,68,74,1);
+background: -moz-linear-gradient(top, rgba(29,68,74,1) 0%, rgba(76,125,116,0.91) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(29,68,74,1)), color-stop(100%, rgba(76,125,116,0.91)));
+background: -webkit-linear-gradient(top, rgba(29,68,74,1) 0%, rgba(76,125,116,0.91) 100%);
+background: -o-linear-gradient(top, rgba(29,68,74,1) 0%, rgba(76,125,116,0.91) 100%);
+background: -ms-linear-gradient(top, rgba(29,68,74,1) 0%, rgba(76,125,116,0.91) 100%);
+background: linear-gradient(to bottom, rgba(29,68,74,1) 0%, rgba(76,125,116,0.91) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d444a', endColorstr='#4c7d74', GradientType=0 );
+}
+.bg-secondary {
+    background-color: #bbc2a9 !important;
+}
+a {
+    color: #bbc2a9;
+}
+figcaption {
+    color: #1d444a !important;
+    font-size: 1.2rem !important;
+}
+.line {
+    height: 1px;
+    color: #bbc2a9;
+}
+.btn-primary {
+    
+    background-color: #1d444a;
+    color: #bbc2a9;
+    border-color: #1d444a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-primary:hover {
+    background-color: #1d444a;
+    border-color: #bbc2a9;
+    
+}
+.btn-primary a {
+    color: #bbc2a9;
+    text-decoration: none;
+}
+.btn-primary a:hover {
+    color: #4c7d74;
+}
+.navbar-dark .navbar-nav .active .nav-link {
+    font-weight: bold;
+    color: antiquewhite;
+}
+.active {
+    font-weight: bold;
+    color: antiquewhite;
+}
+a:hover {
+    color: antiquewhite;
+}
+.about-me-text{
+    line-height: 2rem;
+    
+}
+.footer-row {
+    border-top: 1px solid #bbc2a9;
+  }
+
+@media (min-width: 800px) {
+    .figure-img {
+        width: 15%;
+    }
+}

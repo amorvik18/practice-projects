@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style-contact.css">
+
+    <title>Katarzyna Wincenciuk Copywriter - Kontakt</title>
+</head>
+
+<body>
+
+    <!-- NAV -->
+
+    <nav class="color navbar navbar-expand-lg navbar-dark bg-primary-nav text-center">
+        <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" height="35" alt="Logo"></a>
+        <button class="navbar-toggler" data-target="#my-nav-contact" data-toggle="collapse"
+            aria-controls="my-nav-contact" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav-contact" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../portfolio/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Kontakt<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="container-fluid">
+
+        <!-- HEADER -->
+
+        <div class="header row">
+            <div class="col"></div>
+    </header>
+
+    <!-- CONTACT-FORM  -->
+
+    <div class="container-fluid bg-primary-container">
+        <div class="row py-5">
+            <div class="col offset-xs-1"></div>
+            <div class="contact-tekst col-sm-5 pl-2 pr-4">
+                <h1 class="text-primary mb-4">Zainteresowany?</h1>
+                <p class="lead text-primary">Skontaktuj się ze mną przez formularz kontaktowy.</p>
+                <p class="about-me-text text-primary">Informuję, że podanie danych jest dobrowolne, ale konieczne, jeśli
+                    chcesz bym ci odpisała. Podanie danych jest równoznaczne ze zgodą, bym miała do nich dostęp. Nie
+                    gromadzę danych swoich klientów w celach marketingowych i nie udostępniam ich żadnym podmiotom.</p>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col wrapper">
+                        <h1 class="mb-4 text-primary">Formularz kontaktowy</h1>
+                        <form class="form" name="contact-form" method="post" action="send_form_email.php">
+
+                            <div class="form-item">
+                                <label class="label" for="first_name">Imię *</label>
+                                <input class="input" type="text" name="first_name" maxlength="50" size="30">
+                                <div class="form-item-bar"></div>
+                            </div>
+
+                            <div class="form-item">
+                                <label class="label" for="last_name">Nazwisko *</label>
+                                <input class="input" type="text" name="last_name" maxlength="50" size="30" placeholder=" ">
+                                <div class="form-item-bar"></div>
+                            </div>
+
+                            <div class="form-item">
+                                <label class="label" for="email">Email *</label>
+                                <input class="input" type="text" name="email" maxlength="80" size="30" placeholder=" ">
+                                <div class="form-item-bar"></div>
+                            </div>
+
+                            <div class="form-item">
+                                <label class="label" for="telephone">Telefon (opcjonalnie)</label>
+                                <input class="input" type="text" name="telephone" maxlength="30" size="30" placeholder=" ">
+                                <div class="form-item-bar"></div>
+                            </div>
+
+                            <div class="form-item">
+                                <label class="label" for="comments">Wiadomość *</label>
+                                <textarea class="textarea" name="comments" maxlength="1000" cols="25" rows="6" placeholder=" "></textarea>
+                                <div class="form-item bar"></div>
+                            </div>
+                                <input class="input btn-primary" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+
+
+        <div class="footer-row row">
+            <div class="menu-bottom col-sm-6 text-center my-3">
+                <h3 class="text-secondary">Menu</h3>
+
+                <nav class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">O mnie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../portfolio/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                </nav>
+            </div>
+            <div class="col-sm-6 text-center mt-3 pb-3">
+                <h3 class="text-secondary">Kontakt</h3>
+                <a class="text-decoration-none" href="mailto:k.wincenciuk@gmail.com">e-mail: k.wincenciuk@gmail.com</a>
+            </div>
+        </div>
+        <div class="line d-sm-none"></div>
+        <div class="row copyright">
+            <div class="col d-flex justify-content-center">
+                <p class="text-secondary pt-4">&copy Katarzyna Wincenciuk</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>

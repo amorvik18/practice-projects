@@ -1,0 +1,184 @@
+.header {
+    background-image: url('../img/gallery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    height: 500px;
+}
+a {
+  text-decoration: none !important;
+}
+figure h4 {
+  text-align: center;
+  font-weight: bold;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+span {
+    color: #bbc2a9;
+    font-size: 14px;
+    
+}
+.gallery .pdf-file {
+    float: left;
+    margin: 1em;
+  }
+  
+  .gallery .pdf-file figure {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    z-index: 1;
+    opacity: .5;
+  }
+  
+  .gallery .pdf-file figure:hover, .gallery .pdf-file figure:focus {
+    z-index: 1000;
+    position: relative;
+  }
+  
+  .gallery .pdf-file figure h4 {
+    font-size: 18px;
+  }
+  
+  .gallery .pdf-file figure p {
+    font-size: 15px;
+    font-weight: normal;
+  }
+  
+  .gallery .pdf-file:nth-child(1) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  
+  .gallery .pdf-file:nth-child(1) figure:hover, .gallery .pdf-file:nth-child(1) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+    
+  }
+  
+  .gallery .pdf-file:nth-child(2) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  
+  .gallery .pdf-file:nth-child(2) figure:hover, .gallery .pdf-file:nth-child(2) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+  
+  .gallery .pdf-file:nth-child(3) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  
+  .gallery .pdf-file:nth-child(3) figure:hover, .gallery .pdf-file:nth-child(3) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+  
+  .gallery .pdf-file:nth-child(4) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  
+  .gallery .pdf-file:nth-child(4) figure:hover, .gallery .pdf-file:nth-child(1) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+  .gallery .pdf-file:nth-child(5) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  
+  .gallery .pdf-file:nth-child(5) figure:hover, .gallery .pdf-file:nth-child(1) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+  .gallery .pdf-file:nth-child(6) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  
+  .gallery .pdf-file:nth-child(6) figure:hover, .gallery .pdf-file:nth-child(1) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+  .gallery .pdf-file:nth-child(7) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  
+  .gallery .pdf-file:nth-child(7) figure:hover, .gallery .pdf-file:nth-child(1) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+  .gallery .pdf-file:nth-child(8) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  
+  .gallery .pdf-file:nth-child(8) figure:hover, .gallery .pdf-file:nth-child(1) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+  .gallery .pdf-file:nth-child(9) figure {
+    background-image: url('../pdf/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  
+  .gallery .pdf-file:nth-child(9) figure:hover, .gallery .pdf-file:nth-child(1) figure:focus {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    opacity: 1;
+  }
+
+  
